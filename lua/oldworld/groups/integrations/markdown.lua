@@ -1,12 +1,12 @@
 local p = require("oldworld.palette")
 
 return {
-    markdownH1 = { fg = p.bright_blue, bold = true },
-    markdownH2 = { fg = p.bright_blue, bold = true },
-    markdownH3 = { fg = p.bright_blue, bold = true },
-    markdownH4 = { fg = p.bright_blue, bold = true },
-    markdownH5 = { fg = p.bright_blue, bold = true },
-    markdownH6 = { fg = p.bright_blue, bold = true },
+    markdownH1 = { fg = p.purple, bold = true },
+    markdownH2 = { fg = p.blue, bold = true },
+    markdownH3 = { fg = p.green, bold = true },
+    markdownH4 = { fg = p.yellow, bold = true },
+    markdownH5 = { fg = p.red, bold = true },
+    markdownH6 = { fg = p.magenta, bold = true },
     markdownHeadingDelimiter = { fg = p.subtext4 },
     markdownHeadingRule = { fg = p.subtext4 },
     markdownId = { fg = p.red },
